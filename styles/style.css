@@ -118,16 +118,58 @@ nav logo{
  }
  .card-container{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
+    gap: 25px;
     align-items: center;
+    
  }
  .review-title{
-    text-align: center;
+    text-align: center;    
  }
+
+.joined-users-title{
+    padding-top: 100px;
+}
 .cards{
-    height: 243px;
-    width: 366px;
+    height: 240px;
+    width: 332.5px;
     background-color: white;
     padding: 24px;
+}
+.section-focus{
+    height: 650px;
+    align-items: center;
+    margin-top: 100px;
+    background-color: white;
+    justify-content: center;
+
+}
+.focus-text{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.focus-img{
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.section-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 632px;
+    
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490;
+    gap: 30px;
 }

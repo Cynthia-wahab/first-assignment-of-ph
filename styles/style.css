@@ -23,6 +23,11 @@ header{
     border-radius: 5px;
     border: none;
 }
+/* main styles */
+main{
+    max-width: 80%;
+    margin: 0 auto;
+}
 
 
 /* nav styles */
@@ -54,7 +59,7 @@ nav logo{
 .in-action{
     display: flex;
     justify-content: space-between;
-    margin: 60px 200px;
+    margin-top: 105px;
 }
  .section-title h3 {
     font-size: 42px;
@@ -67,4 +72,32 @@ nav logo{
  }
  .in-action img{
     border-radius: 10px;
+ }
+ .joined-users{
+    background-color: #D5D4FF;
+    margin-top: 100px;
+ }
+ .joined-users h4{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 100px;
+ }
+ .user-amount{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+
+ }
+ .user-description{
+    font-size: 20px;
+ }
+ .users-info-container{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    align-items: center;
+    margin-top: 0;
+ }
+ .joined-users{
+    text-align: center;
  }

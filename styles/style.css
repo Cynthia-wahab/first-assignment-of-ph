@@ -6,6 +6,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+body{
+     background-color: #EDF0F7;
+}
 header{
     background-image: url(../Assets/Hero-bg.png);
     height: 698px;
@@ -27,6 +30,7 @@ header{
 main{
     max-width: 80%;
     margin: 0 auto;
+   
 }
 
 
@@ -101,3 +105,29 @@ nav logo{
  .joined-users{
     text-align: center;
  }
+ .review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ .usre-review{
+    height: 234px;
+    width: 366px;
+    background-color: white;
+ }
+ .card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+ }
+ .review-title{
+    text-align: center;
+ }
+.cards{
+    height: 243px;
+    width: 366px;
+    background-color: white;
+    padding: 24px;
+}

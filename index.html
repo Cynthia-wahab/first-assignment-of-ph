@@ -7,12 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="raleway-normal">
     <header>
         <nav>
-            <h2 class="logo primary-color">LOGO</h2>
+            <h1 class="logo primary-color inter-normal">LOGO</h1>
             <button class="btn-primary">Sign Up</button>
         </nav>
         <div class="banner-cintainer">
@@ -22,7 +25,7 @@
     </header>
 
     <main>
-        <section class="in-action">
+        <section class="in-action raleway-normal">
             <div class="section-title">
                 <h3>See It in Action</h3>
                 <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
@@ -33,7 +36,7 @@
 
         </section >
 
-        <section class="joined-users">
+        <section class="joined-users inter-normal">
             <h4 class="joined-users-title">Joined Thousands of Productive Users</h4>
             <div class="users-info-container">
                 <div class="users-info">
@@ -54,10 +57,10 @@
         
         <section class="review">
             <div class="what-our-user-say">
-                <h3 class="review-title">What our users say</h3>
+                <h2 class="review-title">What our users say</h2>
                 <div class="card-container">
                         <div class="cards">
-                        <div>
+                        <div class="star">
                             <img src="./Assets/icon-star.png" alt="star" class="star-icon">
                             <img src="./Assets/icon-star.png" alt="star" class="star-icon">
                             <img src="./Assets/icon-star.png" alt="star" class="star-icon">
@@ -66,11 +69,34 @@
                         </div>
                         <h4>Loved by Designers</h4>
                         <p>This template instantly leveled up our <br> presence.” – Studio Vertex</p>
-                        <div>
+                        <div class="reviewer-img-name">
                             <img src="./Assets/avatar.png" alt="avatar">
-                            <h6>Reviewer name</h6>
-                            <p>Date</p>
+                            <div class="reviewer-name-date">
+                                <h6>Reviewer name</h6>
+                                <p>Date</p>
+                            </div>
+                            
                         </div>
+                        </div>
+                        <div class="cards">
+                        <div class="star">
+                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
+                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
+                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
+                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
+                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
+                        </div>
+                        <h4>Loved by Designers</h4>
+                        <p>This template instantly leveled up our <br> presence.” – Studio Vertex</p>
+                        <div class="reviewer-img-name">
+                            <img src="./Assets/avatar.png" alt="avatar">
+                            <div class="reviewer-name-date">
+                                <h6>Reviewer name</h6>
+                                <p>Date</p>
+                            </div>
+                            
+                        </div>
+
                         </div>
                         <div class="cards">
                         <div>
@@ -82,26 +108,13 @@
                         </div>
                         <h4>Loved by Designers</h4>
                         <p>This template instantly leveled up our <br> presence.” – Studio Vertex</p>
-                        <div>
+                        <div class="reviewer-img-name">
                             <img src="./Assets/avatar.png" alt="avatar">
-                            <h6>Reviewer name</h6>
-                            <p>Date</p>
-                        </div>
-                        </div>
-                        <div class="cards">
-                    <div>
-                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
-                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
-                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
-                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
-                            <img src="./Assets/icon-star.png" alt="star" class="star-icon">
-                    </div>
-                    <h4>Loved by Designers</h4>
-                    <p>This template instantly leveled up our <br> presence.” – Studio Vertex</p>
-                    <div>
-                            <img src="./Assets/avatar.png" alt="avatar">
-                            <h6>Reviewer name</h6>
-                            <p>Date</p>
+                            <div class="reviewer-name-date">
+                                <h6>Reviewer name</h6>
+                                <p>Date</p>
+                            </div>
+                            
                     </div>
                         </div>
                 </div>
@@ -114,9 +127,9 @@
 
         <section class="section-focus">
             <div class="focus-text">
-                <h2>Ready to focus better</h2>
+                <h2 class="focus-title">Ready to focus better</h2>
                 <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                <button class="btn-primary">Get Started Free</button>
+                <button class="btn-primary focus-btn">Get Started Free</button>
             </div>
             <div class="focus-img">
                 <img src="./Assets/wc-big.png" alt="">
@@ -128,16 +141,20 @@
                 <h3>Let’s Get in<br>Touch</h3>
             </div>
             <div class="form-container">
-                <form>
-                    <label for="email">Email</label>
-                    <input type="text" name="" id="email"  placeholder="example@email.com">
-
-                    <label for="name">Name</label>
-                    <input type="text" name="" id="name" placeholder="full name" >
-                    
-                    <label for="message">Message</label>
-                    <textarea id="message" class="message-box" placeholder="write your message...."></textarea>
-                    <button type="submit" class="btn-primary">Get in Touch</button>
+                <form class="inter-normal">
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="text" name="" id="email"  placeholder="example@email.com">
+                    </div>
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name" placeholder="full name" >
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="message-box" placeholder="write your message...."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-footer">Get in Touch</button>
                     
                 </form>
             </div>
@@ -149,6 +166,17 @@
 
 
     <footer>
+        <section class="section-footer">
+            <h1 class="primary-color inter-normal">LOGO</h1>
+            <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we can bring your vision to life.</p>
+            <div class="links" >
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">How it Works</a>
+                <a href="">Services</a>
+            </div>
+
+        </section>
 
     </footer>
 
